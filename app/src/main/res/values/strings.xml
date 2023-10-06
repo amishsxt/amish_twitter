@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Amish_Twitter</string>
+    <string name="login_string">To get started, first \nenter your phone, email \naddress or @username</string>
+    <string name="welcome_string">Welcome back! Log \nin to see the latest.</string>
+</resources>
