@@ -43,7 +43,7 @@
                 android:text="See whats's \nhappening in the \nworld right now."
                 android:textColor="@color/white"
                 android:fontFamily="@font/roboto_bold"
-                android:textSize="31sp"
+                android:textSize="@dimen/_24ssp"
                 android:layout_weight="1"
                 android:gravity="center_vertical"/>
 
@@ -83,7 +83,7 @@
                         android:layout_height="wrap_content"
                         android:text="or"
                         android:textColor="@color/x_light_grey"
-                        android:textSize="11sp"
+                        android:textSize="@dimen/_8ssp"
                         android:fontFamily="@font/roboto_regular"
                         android:layout_marginHorizontal="10dp"/>
 
@@ -118,7 +118,7 @@
                     android:text="By signing up, you agree to our "
                     android:textColor="@color/x_light_grey"
                     android:fontFamily="@font/roboto_regular"
-                    android:textSize="13sp"/>
+                    android:textSize="@dimen/_9ssp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -126,7 +126,7 @@
                     android:text="Terms"
                     android:textColor="@color/x_blue"
                     android:fontFamily="@font/roboto_regular"
-                    android:textSize="13sp"/>
+                    android:textSize="@dimen/_9ssp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -134,7 +134,7 @@
                     android:text=", "
                     android:textColor="@color/x_light_grey"
                     android:fontFamily="@font/roboto_regular"
-                    android:textSize="13sp"/>
+                    android:textSize="@dimen/_9ssp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -142,7 +142,7 @@
                     android:text="Privacy"
                     android:textColor="@color/x_blue"
                     android:fontFamily="@font/roboto_regular"
-                    android:textSize="13sp"/>
+                    android:textSize="@dimen/_9ssp"/>
 
 
             </LinearLayout>
@@ -159,7 +159,7 @@
                     android:text="Policy"
                     android:textColor="@color/x_blue"
                     android:fontFamily="@font/roboto_regular"
-                    android:textSize="13sp"/>
+                    android:textSize="@dimen/_9ssp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -167,7 +167,7 @@
                     android:text=" and "
                     android:textColor="@color/x_light_grey"
                     android:fontFamily="@font/roboto_regular"
-                    android:textSize="13sp"/>
+                    android:textSize="@dimen/_9ssp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -175,14 +175,14 @@
                     android:text="Cookie Use"
                     android:textColor="@color/x_blue"
                     android:fontFamily="@font/roboto_regular"
-                    android:textSize="13sp"/>
+                    android:textSize="@dimen/_9ssp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="."
                     android:textColor="@color/x_light_grey"
                     android:fontFamily="@font/roboto_regular"
-                    android:textSize="13sp"/>
+                    android:textSize="@dimen/_9ssp"/>
 
 
             </LinearLayout>
@@ -199,7 +199,7 @@
                     android:text="Have an account already? "
                     android:textColor="@color/x_light_grey"
                     android:fontFamily="@font/roboto_regular"
-                    android:textSize="15sp"/>
+                    android:textSize="@dimen/_10ssp"/>
 
                 <TextView
                     android:id="@+id/loginBtn"
@@ -208,7 +208,7 @@
                     android:text="Log in"
                     android:textColor="@color/x_blue"
                     android:fontFamily="@font/roboto_regular"
-                    android:textSize="15sp"
+                    android:textSize="@dimen/_10ssp"
                     android:background="@drawable/ripple_effect"/>
 
 

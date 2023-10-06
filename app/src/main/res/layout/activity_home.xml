@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:text="Home Screen"
             android:textColor="@color/white"
-            android:textSize="29sp"
+            android:textSize="@dimen/_24ssp"
             android:fontFamily="@font/roboto_medium"/>
 
         <com.google.android.material.button.MaterialButton
