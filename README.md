@@ -1,2 +1,2 @@
 # apk link
-https://mega.nz/file/cvtC2CxB#RCPcbc2VAbGax9r4s7IP0EWBbe7bNz_511FFUHPiAj0
+https://mega.nz/file/M6lBwLBI#d9KOo-0MmcavzsRoOHlGRgNuWrQ20_e3F1z2Kqs5Z4k
