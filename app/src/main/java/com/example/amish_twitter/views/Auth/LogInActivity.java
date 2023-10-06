@@ -2,6 +2,8 @@ package com.example.amish_twitter.views.Auth;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
@@ -71,6 +73,24 @@ public class LogInActivity extends AppCompatActivity {
                     usernameLayout.setError("Doesn't exists");
                     progressBarStatus(false);
                 }
+
+            }
+        });
+
+        //Removing Error messages
+        username.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                usernameLayout.setError(null);
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
 
             }
         });
