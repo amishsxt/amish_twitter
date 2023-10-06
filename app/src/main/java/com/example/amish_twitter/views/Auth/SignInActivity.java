@@ -71,6 +71,7 @@ public class SignInActivity extends AppCompatActivity {
                     loginUser(true);
 
                     Intent intent = new Intent(SignInActivity.this, HomeActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                     intent.putExtra("user", user);
 
                     progressBarStatus(false);
